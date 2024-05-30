@@ -1,0 +1,7 @@
+version: "3"
+services:
+  mmm:
+    build: ./
+    restart: always
+    ports:
+      - "8005:3000"
